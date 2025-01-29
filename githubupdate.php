@@ -3,9 +3,7 @@
 Plugin Name: Your Custom Plugin
 Update URI: https://github.com/your-org/your-custom-plugin/
 */
-Then, add a filter like this:
-
-<?php
+ 
 add_filter( 'update_plugins_github.com', 'self_update', 10, 4 );
 
 /**
