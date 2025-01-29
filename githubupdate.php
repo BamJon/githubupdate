@@ -2,7 +2,7 @@
 /*
 Plugin Name: Your Custom Plugin
 Update URI: https://github.com/BamJon/githubupdate
-Version: 1.0
+Version: 1.1
 */
  
 add_filter( 'update_plugins_github.com', 'self_update', 10, 4 );
